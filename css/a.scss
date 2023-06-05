@@ -1,0 +1,27 @@
+$unnamed-color-ffffff: #FFFFFF;
+$unnamed-color-9a9a9a: #9A9A9A;
+$unnamed-color-5cb2dd: #5CB2DD;
+$unnamed-color-333333: #333333;
+$unnamed-color-2693f4: #2693F4;
+$unnamed-color-121212: #121212;
+
+.secteurs .secteurs_left {
+  width: 528px;
+  margin-right: 32px;
+  height: 757px;
+}
+
+.secteurs_left>img {
+  width: 100%;
+  height: 100%;
+}
+.secteurs_career {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+  margin-bottom: 35px;
+}
+.secteurs_right .secteurs_career > img {
+  width: 531px;
+  height: 391px;
+}

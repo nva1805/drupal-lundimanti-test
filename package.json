@@ -1,0 +1,31 @@
+{
+  "name": "lenne_creation",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "ssh://gitolite@tuleap.lundimatin.biz/drupal/theme-custom-lenne-creation.git",
+  "author": "LUNDI MATIN",
+  "private": true,
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "autoprefixer": "^10.4.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss-import": "^15.0.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "tailwindcss": "^3.2.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.10.3"
+  },
+  "scripts": {
+    "dev": "webpack --watch --progress --mode development",
+    "build": "webpack --mode production"
+  }
+}

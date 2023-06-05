@@ -1,0 +1,11 @@
+name: test
+type: theme
+description: "test front end at 06/05/2023"
+core_version_requirement: ^9 | ^10
+base theme: stable9
+logo: logo.png
+version: ver1.0
+
+libraries:
+  - test/global-css
+  - test/global-assets

@@ -1,0 +1,23 @@
+global-assets:
+  version: VERSION
+  dependencies:
+    - core/drupalSettings
+    - core/drupal.message
+    - core/jquery
+    - core/jquery.once
+
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/global.css: {}
+      css/header.css: {}
+      css/banner.css: {}
+      css/notre-catalogue.css: {}
+      css/secteurs.css: {}
+     
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
