@@ -4,20 +4,17 @@
   text-align: center;
   margin: 0 auto;
 }
-
 .notre_catalogue--title {
-  font-size: 40px;
-  font-weight: bold;
-  color: var(--unnamed-color-121212);
-  margin-bottom: 29.11px;
+  margin: 35px 0 0 0;
 }
-
 .notre_catalogue--desc {
-  width: 978px;
-  height: 48px;
-  margin: 0 auto 22.89px auto;
+    width: 978px;
+    height: 48px;
+    margin-top: 29.11px;
+    margin-bottom: 22.89px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .notre_catalogue--swipe {
   position: relative;
   width: 100%;

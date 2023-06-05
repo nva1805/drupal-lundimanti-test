@@ -33,11 +33,9 @@
   font-size: 40px;
   font-weight: bold;
   color: var(--unnamed-color-121212);
-  margin-bottom: 29.11px;
 }
 
 .main_desc {
-  width: 978px;
-  height: 48px;
-  margin: 0 auto 22.89px auto;
+  font-size: 16px;
+  color: var(--unnamed-color-333333);
 }

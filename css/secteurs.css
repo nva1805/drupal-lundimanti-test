@@ -1,28 +1,29 @@
 .secteurs {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+  height: 1057px;
+  justify-content: space-between;
 }
 
-.secteurs .secteurs_left {
+.secteurs_left {
   width: 528px;
+  height: 757px;
   margin-right: 29px;
 }
-.secteurs .secteurs_left {
-  width: 1088px;
-  height: 757px;
-}
 
-.secteurs_left > img {
-  width: 100%;
+.secteurs_right {
   height: 100%;
 }
-.secteurs_career {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 35px;
+.secteurs_title {
+  margin: 44px 0 12px 0;
 }
-.secteurs_right .secteurs_career > img {
-  width: 531px;
-  height: 391px;
+.secteurs_right .secteurs_desc {
+  width: 1088px;
+  height: 80px;
+}
+.secteurs_career {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 29px;
+  row-gap: 32px;
 }
