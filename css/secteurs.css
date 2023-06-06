@@ -14,16 +14,57 @@
 .secteurs_right {
   height: 100%;
 }
+
 .secteurs_title {
   margin: 44px 0 12px 0;
 }
+
 .secteurs_right .secteurs_desc {
   width: 1088px;
   height: 80px;
 }
+
 .secteurs_career {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 29px;
-  row-gap: 32px;
+  row-gap: 35px;
+}
+
+@media (max-width: 46.1875em) {
+  .secteurs {
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .secteurs_left {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    order: 2;
+  }
+
+  .secteurs_right {
+    order: 1;
+  }
+  .secteurs_title {
+    text-align: center;
+  }
+  .secteurs_right .secteurs_desc {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  .secteurs_career {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  img {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+  }
 }

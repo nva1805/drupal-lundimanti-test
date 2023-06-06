@@ -3,10 +3,12 @@
   width: 100%;
   height: 700px;
 }
-.banner > img {
+
+.banner>img {
   width: 100%;
-  height: 700px;
+  height: 100%;
 }
+
 .banner_content {
   position: absolute;
   top: 188px;
@@ -16,22 +18,51 @@
   height: 220px;
   text-align: center;
 }
+
 .banner_title {
   font-size: 48px;
   font-weight: bold;
   height: 67px;
   margin-bottom: 6px;
-
 }
+
 .banner_desc {
   font-size: 20px;
   height: 101px;
   width: 647px;
   margin-bottom: 6px;
 }
+
 .banner_content button {
   padding: 10px 48px;
   width: 166px;
   height: 40px;
   font-size: 14px;
+}
+
+@media (max-width: 46.1875em) {
+  .banner {
+    height: 380px;
+  }
+
+  .banner_content {
+    position: absolute;
+    top: 100px;
+    padding: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .banner_title {
+    font-size: 24px;
+  }
+  
+  .banner_desc {
+    display: none;
+  }
+  
+  .banner_content button {
+    padding: 10px 48px;
+    font-size: 14px;
+  }
 }

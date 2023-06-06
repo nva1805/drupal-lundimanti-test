@@ -33,9 +33,18 @@
   font-size: 40px;
   font-weight: bold;
   color: var(--unnamed-color-121212);
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
 }
 
 .main_desc {
   font-size: 16px;
   color: var(--unnamed-color-333333);
+}
+
+@media (max-width: 46.1875em) {
+  .container {
+  width: 100%;
+  }
 }
